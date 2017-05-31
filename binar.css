@@ -1,0 +1,139 @@
+.zero {
+	align:center;
+}
+
+#timerContainer {
+	font-size: 350%;
+	color: red;
+	height: 70px;
+}
+
+.button {
+	width: 70px;
+	height: 70px;
+	background-image: url(button.png);
+	background-size: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 350%;
+	color: white;
+	cursor: pointer;
+}
+
+#resultContainer {
+	display: inline-block;
+	align: center;
+	text-align: center;
+	font-size: 350%;
+}
+
+#levelContainer {
+	display: inline-block;
+	font-size: 300%;
+	color: black;
+}
+
+#startContainer {
+	display: inline-block;
+	width: 210px;
+	height: 70px;
+	background-size: 100%;
+	font-size: 300%;
+	text-align: center;
+	align: center;
+	background-image: url(startButton.png);
+	color: white;
+	cursor: pointer;
+}
+
+#aimContainer {
+	font-size: 300%;
+	color: black;
+	height:100px;
+}
+
+#minutesContainer {
+	display: inline-block;
+}
+
+#secondsContainer {
+	display: inline-block;
+}
+
+#scoresContainer {
+	font-size: 150%;
+	color: black;
+}
+
+#buttonsContainer {
+	display: flex;
+}
+
+#nameContainer {
+	font-size: 200%;
+	display: inline-block;
+}
+
+#name {
+	font-size: 100%;
+}
+
+#totalTimerContainer {
+	font-size: 350%;
+	color: blue;
+}
+
+#totalMinutesContainer {
+	display: inline-block;
+}
+
+#totalSecondsContainer {
+	display: inline-block;
+}
+
+.grade {
+	display: inline-block;
+	width: 66.3px;
+	text-align: center;
+	font-size: 150%;
+}
+
+#championsContainer {
+	display: inline-block;
+	font-size: 200%;
+	cursor: pointer;
+}
+
+#linkContainer {
+	font-size: 200%;
+	width: 100%;
+}
+
+.linkBlock {
+	display: inline-block;
+	text-decoration: underline;
+	width: 24%;
+	height: 100px;
+	text-align: center;
+}
+
+#chosenOne {
+	color: red;
+}
+
+.linksBlock {
+	display: inline-block;
+	text-decoration: underline;
+	width: 32%;
+	height: 50px;
+	text-align: center;
+}
+
+body {
+	background-color: violet;
+}
+
+iframe
+{
+    background-color: transparent;
+} 
